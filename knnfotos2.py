@@ -10,6 +10,7 @@ import pandas as pd
 import seaborn as sns
 
 def draw_knn(image_path, result):
+    "Test"
     # Dibujar círculos en los puntos extraídos por KNN
     img = cv2.imread(image_path)
     for i in range(len(result)):
